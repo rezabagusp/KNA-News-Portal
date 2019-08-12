@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/KNA-News-Portal/precache-manifest.95f31d78fd926f669b39627b3a619ba1.js"
+  "/KNA-News-Portal/precache-manifest.8c708764effa8fe61f6b24f78f8ee78b.js"
 );
 
 self.addEventListener('message', (event) => {
