@@ -1,0 +1,32 @@
+#bookmark-page {
+    padding: 1rem 0;
+}
+
+#bookmark-page .head-title,
+#bookmark-page .list-articles {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 1rem;    
+}
+
+#bookmark-page .head-title {
+    border-bottom: 1px solid var(--smoke-grey);
+    padding: 1rem 0;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#bookmark-page .head-title .icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 8px;
+    font-size: 1.5rem;
+    color: var(--orange)
+}
+
+#bookmark-page .head-title h3 {
+    font-weight: 400;
+}
+
+

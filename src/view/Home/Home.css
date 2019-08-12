@@ -1,0 +1,39 @@
+#home-page {
+    padding: 1rem 0;
+}
+
+#home-page .search-wrapper {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 4fr ; 
+    margin-bottom: 0.5em;
+}
+
+#home-page form {
+    background: var(--smoke-grey);
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+}
+
+
+#home-page .search-wrapper * {
+    margin: 1px;
+}
+
+#home-page .search-bar,
+#home-page .list-articles
+{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+#home-page form input::placeholder {
+    font-style: italic; 
+}
+
+@media (max-width: 600px) {
+    #home-page .search-wrapper {
+        grid-template-columns: 1fr;
+    }
+} 

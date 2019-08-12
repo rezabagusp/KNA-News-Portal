@@ -1,0 +1,63 @@
+
+.ArticleItem .card {
+    position: relative;    
+    display: flex;
+    flex-flow: column wrap;
+    border: 1px solid var(--smoke-grey);
+    box-shadow: 2px 2px #eee;
+}
+
+.ArticleItem .thumbnail {
+    width: 100%;
+    object-fit: cover;
+}
+
+.ArticleItem img {
+    vertical-align: middle;
+}
+
+
+.ArticleItem h3 {
+    font-size: 1em;
+    font-weight: 700;
+    margin: 0.5rem 0;
+}
+
+.ArticleItem p {
+    font-size: 0.9em;
+}
+
+.ArticleItem p span a {
+    color: var(--blue);
+    font-style: italic;
+}
+
+.ArticleItem .date-time {
+    font-size: 0.8em;
+    opacity: 0.6;
+    font-style: italic;
+    text-align: right;
+}
+
+.ArticleItem h3,
+.ArticleItem p,
+.ArticleItem .date-time {
+    padding: 0.7rem;
+}
+.ArticleItem a {
+    color: black;
+}
+
+.ArticleItem i:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.ArticleItem i {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    color: var(--dark-orange);
+    opacity: 0.8;
+    font-size: 1.4rem;
+}
