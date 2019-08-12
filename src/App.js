@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, NavLink, Link } from 'react-router-dom';
+import { HashRouter, Route, NavLink, Link } from 'react-router-dom';
 
 //View
 import Home from './view/Home/Home';
@@ -16,7 +16,7 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
+      <HashRouter>
         <div className="App">
           {/* Link */}
           <nav className="navbar">
@@ -35,12 +35,10 @@ class App extends Component {
                     }>Bookmark</NavLink>
                 </li>
               </ul>
-
-              <Link to='/'>
-                <div className="app-name">News Portal</div>
-              </Link>
-
             </div>
+            <Link to='/'>
+              <div className="app-name">News Portal</div>
+            </Link>
           </nav>
 
           {/* router */}
@@ -54,7 +52,7 @@ class App extends Component {
             <p><span> &copy; 2019 @rezabagusp.</span> Powered by NewsApi.org </p>
           </footer>
         </div>
-      </Router>
+      </HashRouter>
     );
   }
 }

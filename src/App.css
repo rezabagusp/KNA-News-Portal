@@ -22,7 +22,7 @@
   position: absolute;
   right: 0;
   top: 0;
-  transform: translate(-77%, 23%)
+  transform: translate(-77%, 23%);
 }
 
 .navbar ul > li {
@@ -55,5 +55,9 @@ footer p span {
   color: lightgray;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
+  .navbar .app-name {
+    transform: translate(-20%, 45%);
+    font-size: 1.2rem;
+  }
 } 
