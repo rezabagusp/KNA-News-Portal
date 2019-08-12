@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/KNA-News-Portal/static/css/main.c316cff0.chunk.css",
+    "main.js": "/KNA-News-Portal/static/js/main.43f9e3db.chunk.js",
+    "main.js.map": "/KNA-News-Portal/static/js/main.43f9e3db.chunk.js.map",
+    "runtime~main.js": "/KNA-News-Portal/static/js/runtime~main.53779f6b.js",
+    "runtime~main.js.map": "/KNA-News-Portal/static/js/runtime~main.53779f6b.js.map",
+    "static/js/2.2f30adbd.chunk.js": "/KNA-News-Portal/static/js/2.2f30adbd.chunk.js",
+    "static/js/2.2f30adbd.chunk.js.map": "/KNA-News-Portal/static/js/2.2f30adbd.chunk.js.map",
+    "index.html": "/KNA-News-Portal/index.html",
+    "precache-manifest.95f31d78fd926f669b39627b3a619ba1.js": "/KNA-News-Portal/precache-manifest.95f31d78fd926f669b39627b3a619ba1.js",
+    "service-worker.js": "/KNA-News-Portal/service-worker.js",
+    "static/css/main.c316cff0.chunk.css.map": "/KNA-News-Portal/static/css/main.c316cff0.chunk.css.map"
+  }
+}
