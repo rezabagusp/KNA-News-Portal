@@ -1,9 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Configure
+Install node.js (only if you havent installed it). <br>
+you can find it here [Node.js](https://nodejs.org/en/download/).
+
+## Steps
+First, open terminal in the project directory.<br>
+Install the dependencies by typing 'npm install'.<br>
+Serve the app by typing 'npm start'. Open the browser with url (http://localhost:3000/).
+
 ## Available Scripts
 
 In the project directory, you can run:
-
 ### `npm start`
 
 Runs the app in the development mode.<br>
